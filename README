@@ -1,0 +1,55 @@
+NAME: RUSHANG V KARIA
+ASU # 1206337661
+CSE 598
+ASSIGNMENT 3
+
+NOTE: FOR TASK1 I EVEN INCLUDED THE OPTION TO WRITE A BYTE TO A SPECIFIC LOCATION. So given a page no and position you can write a single character to it. It does not update the address counter though.
+
+Seperate readme files are present in all directories.
+
+all drivers are name I2C-FLASH.ko
+all test programs are i2c-test-app
+
+all tasks will initialized the EEPROM to all X. ie they will write X to all 512 pages.
+
+Thus, if you do insmod or start Task1 please be patient as it will take around 5 seconds to initialize. The reason I did this is so that you have the option to read 512 pages.
+
+The programs display a  menu of the options available.
+
+To compile
+
+Please type make in all the directories.
+
+To run...navigate to the current directory
+
+Task1
+-----------
+ ./i2c-test-app
+------------
+Task2 and Task 3
+-----------------------------------
+ insmod I2C-FLASH.ko
+./i2c-test-app
+-----------------------------------
+
+The range of pages is 0-511.
+
+Any value above or below it is invalid!!.
+
+Task3 will give a worded output of the return value.
+
+-2 --> WORK SUBMITTED
+-1 --> YET TO BE HANDLED
+-3 --> WORK FAILED
+0 --> SUCCESS AND THE RELAVENT OUTPUT IS DISPLAYED
+
+
+The program autmatically increments the address after every read and write operation.
+
+You have the option to randomly generate a string but note that it will not generate a size that is equal to the no. of pages that you wanted to write to.
+
+All driver and test programs are almost similar with relatively few differences.
+
+Please either run diff FILE1 FILE2 to see the minor changes 
+
+I have also commented all the changed parts of the program.

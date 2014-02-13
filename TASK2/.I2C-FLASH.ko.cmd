@@ -1,0 +1,1 @@
+cmd_/home/esp/Desktop/WORKING2/TASK2/I2C-FLASH.ko := arm-angstrom-linux-gnueabi-ld -EL -r  -T /home/esp/Kernel_Source_Trees/Angstrom_Linux/kernel/kernel/scripts/module-common.lds --build-id  -o /home/esp/Desktop/WORKING2/TASK2/I2C-FLASH.ko /home/esp/Desktop/WORKING2/TASK2/I2C-FLASH.o /home/esp/Desktop/WORKING2/TASK2/I2C-FLASH.mod.o
