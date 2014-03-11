@@ -1,9 +1,8 @@
 NAME: RUSHANG V KARIA
-ASU # 1206337661
-CSE 598
-ASSIGNMENT 3
 
-NOTE: FOR TASK1 I EVEN INCLUDED THE OPTION TO WRITE A BYTE TO A SPECIFIC LOCATION. So given a page no and position you can write a single character to it. It does not update the address counter though.
+DEVICE DRIVER FOR EEPROM
+
+NOTE: FOR TASK1 INCLUDED THE OPTION TO WRITE A BYTE TO A SPECIFIC LOCATION. So given a page no and position you can write a single character to it. It does not update the address counter though.
 
 Seperate readme files are present in all directories.
 
